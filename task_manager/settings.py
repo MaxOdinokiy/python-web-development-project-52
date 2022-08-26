@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'task_manager'
+    'task_manager.first_hello'
 ]
 
 MIDDLEWARE = [
