@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 import os
+import dj_database_url
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -32,7 +33,6 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG', False)
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -79,6 +79,8 @@ WSGI_APPLICATION = 'task_manager.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
+db_from_env = dj_database_url.config()
+
 
 DATABASES = {
     'default': {
@@ -86,7 +88,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
