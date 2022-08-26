@@ -1,0 +1,7 @@
+db.sqlite3
+.venv
+.env
+dist/
+.vscode
+.coverage
+task_manager/.env
