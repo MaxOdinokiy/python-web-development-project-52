@@ -6,3 +6,5 @@ dist/
 .coverage
 task_manager/.env
 __pycache__
+*.pyc
+*.egg-info
