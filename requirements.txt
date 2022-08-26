@@ -17,3 +17,4 @@ python-dotenv @ file:///Users/maximodinokiy/Library/Caches/pypoetry/artifacts/03
 sqlparse @ file:///Users/maximodinokiy/Library/Caches/pypoetry/artifacts/10/f5/22/c9c991a71e27c4d8f69907d92cce74a369cbb3183dc4a6d27e2ae4ab0b/sqlparse-0.4.2-py3-none-any.whl
 tomli @ file:///Users/maximodinokiy/Library/Caches/pypoetry/artifacts/62/12/b6/6db9ebb9c8e1a6c5aa8a92ae73098d8119816b5e8507490916621bc305/tomli-2.0.1-py3-none-any.whl
 whitenoise==6.2.0
+psycopg2==2.8.6

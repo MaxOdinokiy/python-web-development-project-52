@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Max Odinokiy <max.odinokiy@gmail.com>"]
+packages = [
+    { include = "task_manager" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
