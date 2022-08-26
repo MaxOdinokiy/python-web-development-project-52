@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = bool(os.getenv('DEBUG', True))
 
 ALLOWED_HOSTS = [
-    'task_manager.herokuapp.com',
+    'shielded-brushlands-79079.herokuapp.com',
     '127.0.0.1',
 ]
 
