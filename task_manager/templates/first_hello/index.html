@@ -1,1 +1,49 @@
-<h1>{{ text }}!</h1> 
+{# Load the tag library #}
+{% load bootstrap4 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Task manager</title>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <a class="navbar-brand" href="#">Менеджер задач</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Пользователи <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline mt-2 mt-md-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Вход </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Регистрация </a>
+      </li>
+    </form>
+  </div>
+</nav>
+
+<main role="main" class="container">
+  <div class="jumbotron">
+    <h1>Привет от Хекслета!</h1>
+    <p class="lead">Практические курсы по программированию</p>
+    <a class="btn btn-lg btn-primary" href="#" role="button">Узнать больше</a>
+  </div>
+</main>
+</html>

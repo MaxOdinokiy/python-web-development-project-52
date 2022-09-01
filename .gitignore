@@ -9,3 +9,4 @@ __pycache__
 *.pyc
 *.egg-info
 staticfiles/
+.DS_Store
