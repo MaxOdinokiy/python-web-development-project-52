@@ -3,5 +3,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/96cb00b47439cb7a813a/maintainability)](https://codeclimate.com/github/MaxOdinokiy/python-web-development-project-52/maintainability)
 
 
-###WEBSITE:
+### WEBSITE:
 https://shielded-brushlands-79079.herokuapp.com/
