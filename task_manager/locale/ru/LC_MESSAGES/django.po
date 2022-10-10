@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-02 10:55+0300\n"
+"POT-Creation-Date: 2022-10-10 14:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,31 +19,51 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-#: task_manager/templates/first_hello/index.html:17
-#: task_manager/templates/first_hello/index.html:23
+
+#: task_manager/templates/base.html:16 task_manager/templates/base.html:22
 msgid "Task manager"
 msgstr "Менеджер задач"
 
-#: task_manager/templates/first_hello/index.html:30
+#: task_manager/templates/base.html:29 task_manager/users/views.py:16
 msgid "Users"
 msgstr "Пользователи"
 
-#: task_manager/templates/first_hello/index.html:35
+#: task_manager/templates/base.html:34
 msgid "Sign in"
 msgstr "Вход"
 
-#: task_manager/templates/first_hello/index.html:38
+#: task_manager/templates/base.html:37
 msgid "Sign up"
 msgstr "Регистрация"
 
-#: task_manager/templates/first_hello/index.html:46
+#: task_manager/templates/main_page/index.html:19
 msgid "Hello from Hexlet!"
 msgstr "Привет от Хекслета!"
 
-#: task_manager/templates/first_hello/index.html:47
+#: task_manager/templates/main_page/index.html:20
 msgid "Applied programming courses"
 msgstr "Практические курсы по программированию"
 
-#: task_manager/templates/first_hello/index.html:48
+#: task_manager/templates/main_page/index.html:21
 msgid "Learn more"
 msgstr "Узнать больше"
+
+#: task_manager/templates/users/users.html:21
+msgid "User name"
+msgstr "Имя пользователя"
+
+#: task_manager/templates/users/users.html:22
+msgid "Full name"
+msgstr "Полное имя"
+
+#: task_manager/templates/users/users.html:23
+msgid "Creation date"
+msgstr "Дата создания"
+
+#: task_manager/templates/users/users.html:35
+msgid "Change"
+msgstr "Изменить"
+
+#: task_manager/templates/users/users.html:37
+msgid "Delete"
+msgstr "Удалить"
